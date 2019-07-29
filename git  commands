@@ -1,0 +1,14 @@
+################# Git Commands ##############################
+To initialize git in a repository - git init
+To configure git with the repository - git config --global user.name <user.name>
+                                     - git config --global user.email <user.email>
+                                     
+To check the status of your work - git status
+To add the file to stagging area - git add. / git add*
+To commit a  change in a file    - git commit -m "<message for the commit>"
+To push a file to the remote repository - git push origin master
+                                        - git push -u origin master
+To pull the file with latest commit - git pull origin master
+To check the current branch         - git branch (Will display list of branches the branch containing '*' mark is your current branch) 
+To checkout into another branch     - git checkout <branch name>
+                                        
